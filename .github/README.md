@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cloudwatch`](https://www.npmjs.com/package/@aws-sdk/client-cloudwatch/v/3.74.0).
+[`@aws-sdk/client-cloudwatch`](https://www.npmjs.com/package/@aws-sdk/client-cloudwatch/v/3.75.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch@3.74.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch@3.75.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-+5qQq7rB2YrbYEFOmENG2VsIlnY+txhWD4A9nk2F+qswt1qcIx1eKCgr0bUfle21
+sha384-e2fgcP1JRWCeETKcwldGPjE/69T6keseYAYqtPTucNULlhlCDhozRpE83+D7TvMi
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cloudwatch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch@3.74.0/index.min.mjs"
+            "@aws-sdk/client-cloudwatch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch@3.75.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch@3.74.0/index.min.mjs": "sha384-+5qQq7rB2YrbYEFOmENG2VsIlnY+txhWD4A9nk2F+qswt1qcIx1eKCgr0bUfle21"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch@3.75.0/index.min.mjs": "sha384-e2fgcP1JRWCeETKcwldGPjE/69T6keseYAYqtPTucNULlhlCDhozRpE83+D7TvMi"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cloudwatch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch@3.74.0/index.min.mjs"
+                        "@aws-sdk/client-cloudwatch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch@3.75.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch@3.74.0/index.min.mjs": "sha384-+5qQq7rB2YrbYEFOmENG2VsIlnY+txhWD4A9nk2F+qswt1qcIx1eKCgr0bUfle21"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch@3.75.0/index.min.mjs": "sha384-e2fgcP1JRWCeETKcwldGPjE/69T6keseYAYqtPTucNULlhlCDhozRpE83+D7TvMi"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.74.0`)
+* Always pin to a specific version (`@3.75.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cloudwatch/blob/refs/tags/3.74.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cloudwatch/blob/refs/tags/3.75.0/LICENSE
 ```
 
 ---
